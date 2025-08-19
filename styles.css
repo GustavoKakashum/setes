@@ -6,7 +6,7 @@
 }
 
 .rotacao-botao {
-    transform: rotate(90deg);       /* para o botão ficar apontando certinho no lado direito */
+    transform: rotate(900deg);       /* para o botão ficar apontando certinho no lado direito */
     transform-origin: left center;
 }
 
