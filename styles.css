@@ -1,26 +1,81 @@
-.menu-acessibilidade {
-    position: fixed;
-    top: 2rem;
-    right: 20px;   /* antes era left */
-    z-index: 1000;
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  transition: all 0.3s ease-in-out;
 }
 
-.rotacao-botao {
-    transform: rotate(90deg);       /* para o botão ficar apontando certinho no lado direito */
-    transform-origin: left center;
+header {
+  border-bottom: 3px solid #ffc107;
+}
+
+.nav-link {
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+  color: #ffc107 !important;
+}
+
+.menu-acessibilidade {
+  position: fixed;
+  top: 2rem;
+  right: 20px;
+  z-index: 1000;
 }
 
 .opcoes-acessibilidade {
-    margin-top: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end; /* opções alinhadas ao lado direito */
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 .opcoes-acessibilidade button {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 .apresenta-lista {
-    display: none;
+  display: none;
+}
+
+.inicio-fundo {
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+}
+
+.botao-inicio {
+  transition: transform 0.2s ease-in-out;
+}
+
+.botao-inicio:hover {
+  transform: scale(1.05);
+}
+
+.fundo-galeria {
+  background-color: #f8f9fa;
+}
+
+.hover-zoom {
+  transition: transform 0.3s ease-in-out;
+}
+
+.hover-zoom:hover {
+  transform: scale(1.05);
+}
+
+.formulario {
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.contraste {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+
+.contraste a,
+.contraste p,
+.contraste h1,
+.contraste h2,
+.contraste label {
+  color: #ffeb3b !important;
 }
